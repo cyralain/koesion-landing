@@ -1,3 +1,6 @@
+# Cursor stuff
+.cursor/
+
 # Nuxt dev/build outputs
 .output
 .data
@@ -23,5 +26,5 @@ logs
 .env.*
 !.env.example
 
-.cursor/
+
 
