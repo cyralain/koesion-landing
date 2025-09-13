@@ -6,7 +6,8 @@
 </template>
 
 <script setup lang="ts">
-const { data } = await useFetch('/api/hello', { key: 'hello2-app-pages' })
+// const { data } = await useFetch('/api/hello', { key: 'hello2-app-pages' })
+const { data } = await useFetch('/.netlify/functions/hello_get22', { key: 'hello2-app-pages' })
 </script>
 
 
